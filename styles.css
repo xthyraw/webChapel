@@ -1,0 +1,169 @@
+
+header {
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding: 100px 0; 
+}
+header background-image{
+    opacity: 1px;
+}
+
+
+.header-content{
+    align-items: center;
+}
+header h1 {
+    color: aqua;
+    font-size: 5em; 
+    margin-bottom: 20px; 
+    
+}
+header h2 {
+
+    border-radius: 10em;
+    color: aqua;
+    font-size: 30em; 
+    margin-bottom: 20px;
+}
+/*@keyframes swipe{
+    from{
+        transform:0(deg) ;
+    }
+    to{
+        transform: 180x(deg)*/
+
+.header-content p{
+    color: rgba(255, 0, 0, 0.595);
+    font-size: 3em;
+}
+
+
+header p {
+    font-size: 1.5rem; 
+    font-style: italic;
+}
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:black; 
+    color:aqua;
+}
+
+
+nav ul {
+    
+    border-radius: 1rem;
+    box-shadow: #004080;
+    box-sizing: blue;
+    list-style-type: none;
+    text-align: center;
+    background-color: #0078d4; 
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease; 
+}
+
+
+nav ul li a:hover {
+    color: aqua; 
+    text-underline-position: below;
+}
+
+
+section {
+    padding: 40px;
+}
+
+section h2 {
+    font-size: 1.5rem;
+}
+
+section a {
+    color: #0078d4; 
+    text-decoration: none;
+    transition: color 0.3s ease; 
+}
+
+
+section a:hover {
+    color: #004080; 
+}
+.image-about{
+    height: 300px;
+    width: 300px;
+    
+    top: 2px; 
+    left: 10px; 
+    height: 300px;
+    width: 300px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+    transition: 1s;
+}
+.image-c{
+    background-color: #0078d4;
+    padding-bottom: 4rem;
+    padding-top: 0rem;
+    height: 300px;
+    width: 300px;
+    color: #f0f0f0;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+
+}
+.image-about:hover{
+    
+    width: 400px;
+    z-index: -2;
+}
+.image-c p:hover{
+    color:red;
+}
+.contacts{
+    display: flex;
+    background-color:hsla(0, 100%, 50%, 0.704);
+    border-radius: 1rem;
+    box-shadow: rgba(100,0,150, 100);
+    text-decoration: none;
+    color: #f0f0f0;
+}
+
+footer {
+    display:flex;
+    flex-direction: column;
+    border: non;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: #0078d4; 
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0px 15px 30px rgba(100,0,150, 100),0px 15px 30px rgba(100,0,150, 100);
+}
+
+
+footer h2 {
+    margin-bottom: 10px;
+}footer h2:hover {
+    color: red;
+}
+
